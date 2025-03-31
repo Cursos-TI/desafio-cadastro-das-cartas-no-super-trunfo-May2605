@@ -2,23 +2,23 @@
 
 int main(){
     int populacao, numerodepontosturisticos;
-    float area;
-    char Estado[8];
+    float area, pib;
+    char estado[8], codigodacarta[A01, B02, C03], nomedacidade [50];
 
-printf("População: \n");
+printf("qual a população: \n");
 scanf("%d", &populacao);
 
 printf("digite a Área: \n");
 scanf("%f", &area);
 
 printf("digite o estado: \n");
-scanf("%s", &Estado);
+scanf("%s", &estado);
 
-printf("Digite pontos turisticos: \n");
-scanf("%d", &"pontosturisticos");
+printf("quantos pontos turisticos \n");
+scanf("%d", &pontosturisticos);
 
-printf("nome do população:%s - pontosturisticos: %d", populacao, numerodepontosturisticos);
-printf("área: %d - estado: %f", area, Estado);
+printf("nome do populacao: %d - pontosturisticos: %d", populacao, pontosturisticos);
+printf("area: %f - estado: %s", area, estado);
 
 return 0;
 
